@@ -1,0 +1,1 @@
+export { SearchIconWrapper } from "./SearchIconWrapper";
