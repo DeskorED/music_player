@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  height: 75px;
+  min-width: 550px;
+}
+
+.header__logo {
+  position: absolute;
+  left: 28px;
+  min-width: 70px;
+  z-index: 1;
+}
+
+.header__logo-img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.header__search {
+  position: absolute;
+  left: 100px;
+  min-width: 300px;
+  width: 40%;
+  z-index: 1;
+}
+
+.user-logo {
+  min-width: 70px;
+  position: absolute;
+  right: 45px;
+  z-index: 1;
+}
+
+.user-logo__img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+/*# sourceMappingURL=style.css.map */
