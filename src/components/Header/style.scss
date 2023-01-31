@@ -2,44 +2,51 @@ $imgSize: 70px;
 $imgBorderRadius: 50%;
 
 .header{
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   box-sizing: border-box;
   height: 75px;
-  min-width: 550px;
 }
 
 .header__logo{
-  position: absolute;
-  left: $imgSize/2.5;
+  margin-left: 1.5%;
   min-width: $imgSize;
   z-index: 1;
 }
 
 .header__logo-img{
   border-radius: $imgBorderRadius;
+  border: .7px solid cyan;
   width: $imgSize;
   height: $imgSize;
 }
+.move-buttons{
+  width: $imgSize;
+  height: $imgSize;
+  background-color: transparent;
+  border: none
+
+}
 
 .header__search{
-  position: absolute;
-  left: 100px;
-  min-width: 300px ;
-  width: 40%;
   z-index: 1;
+  width: 45%;
+  margin-right: 5%;
 }
 
 .user-logo{
+  justify-self: right;
+  margin-right: 1.5%;
   min-width: $imgSize;
-  position: absolute;
-  right: 45px;
   z-index: 1;
 }
 
-.user-logo__img{
+.user-logo-img{
   border-radius: $imgBorderRadius;
+  border: .7px solid cyan;
   width: $imgSize;
   height: $imgSize;
 }

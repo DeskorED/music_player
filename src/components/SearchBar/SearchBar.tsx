@@ -5,17 +5,23 @@ import { StyledInputBase } from "./StyledInputBase";
 
 import "./styles.scss";
 
-export const SearchBar = () => {
+interface SearchProps {
+  className: string;
+}
+
+export const SearchBar = ({ className }: SearchProps): JSX.Element => {
   return (
-    <Search>
-      <SearchIconWrapper>
-        <SearchIcon htmlColor="white" />
-      </SearchIconWrapper>
-      <StyledInputBase
-        className="search__input"
-        placeholder="Type your music request"
-        inputProps={{ "aria-label": "search" }}
-      />
-    </Search>
+    <div className={className}>
+      <Search>
+        <SearchIconWrapper>
+          <SearchIcon htmlColor="white" />
+        </SearchIconWrapper>
+        <StyledInputBase
+          className="search__input"
+          placeholder="Type your music request"
+          inputProps={{ "aria-label": "search" }}
+        />
+      </Search>
+    </div>
   );
 };
