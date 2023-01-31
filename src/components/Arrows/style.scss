@@ -1,0 +1,22 @@
+
+.move-buttons{
+  box-sizing: border-box;
+  border-radius: 15px;
+  transition-duration: 0.75s;
+  width: 70px;
+  margin: 0 15px;
+  aspect-ratio: 1/1;
+  background-color: transparent;
+  border: none
+}
+
+.undo-arrow{
+  padding: 5% 5% 0 0;
+}
+.redo-arrow{
+  padding: 5% 0 0 5%;
+}
+
+.move-buttons:hover{
+  background-color: rgba(192, 190, 190, 0.27);
+}

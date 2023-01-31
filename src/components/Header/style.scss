@@ -1,10 +1,9 @@
-$imgSize: 70px;
 $imgBorderRadius: 50%;
 
 .header{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   position: relative;
   box-sizing: border-box;
@@ -13,40 +12,39 @@ $imgBorderRadius: 50%;
 
 .header__logo{
   margin-left: 1.5%;
-  min-width: $imgSize;
+  width: 70px;
   z-index: 1;
 }
 
 .header__logo-img{
   border-radius: $imgBorderRadius;
   border: .7px solid cyan;
-  width: $imgSize;
-  height: $imgSize;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
-.move-buttons{
-  width: $imgSize;
-  height: $imgSize;
-  background-color: transparent;
-  border: none
 
-}
 
 .header__search{
   z-index: 1;
   width: 45%;
-  margin-right: 5%;
+
 }
 
 .user-logo{
-  justify-self: right;
+  position: absolute;
+  right: 1.5%;
   margin-right: 1.5%;
-  min-width: $imgSize;
+  width: 70px;
   z-index: 1;
 }
 
 .user-logo-img{
   border-radius: $imgBorderRadius;
   border: .7px solid cyan;
-  width: $imgSize;
-  height: $imgSize;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.move-button__arrows{
+  margin-left: 1.5%;
 }
