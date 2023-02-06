@@ -1,20 +1,21 @@
 
 .move-buttons{
   box-sizing: border-box;
-  border-radius: 15px;
+  border-radius: 20px;
   transition-duration: 0.75s;
-  width: 70px;
-  margin: 0 15px;
+  width: 20%;
+  margin: 0 5%;
   aspect-ratio: 1/1;
   background-color: transparent;
-  border: none
+  border: none;
+  cursor: pointer;
 }
 
 .undo-arrow{
-  padding: 5% 5% 0 0;
+  padding: 2.5% 2.5% 0 0;
 }
 .redo-arrow{
-  padding: 5% 0 0 5%;
+  padding: 2.5% 0 0 2.5%;
 }
 
 .move-buttons:hover{

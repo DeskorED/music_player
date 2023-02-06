@@ -1,13 +1,10 @@
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-
 import React from "react";
+import { MainPage } from "./pages/MainPage";
 
 export function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
+      <MainPage className="main-page" />
     </div>
   );
 }
