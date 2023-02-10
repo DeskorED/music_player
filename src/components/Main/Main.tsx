@@ -5,7 +5,7 @@ import "./style.scss";
 
 export const Main = (): JSX.Element => {
   return (
-    <div>
+    <div className="main-block">
       <SideBar className="side-bar" />
       <TrackList className="track-list" />
     </div>

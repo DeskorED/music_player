@@ -10,9 +10,11 @@ export const SideBar = ({ className }: SideBarProps): JSX.Element => {
   return (
     <div className={className}>
       {tabs.map((tab: { key: string; value: JSX.Element }) => (
-        <button className="tabs" key={tab["key"]} value={tab["key"]}>
-          {tab["value"]}
-        </button>
+        <div className="tabs__container" key={tab["key"]}>
+          <button className="tabs__button" value={tab["key"]}>
+            {tab["value"]}
+          </button>
+        </div>
       ))}
     </div>
   );

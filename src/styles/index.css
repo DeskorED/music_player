@@ -17,10 +17,13 @@ body {
   top: 2.5%;
   bottom: 2.5%;
   left: 2.5%;
-  border-radius: 20px;
-  padding: 20px;
-  width: 95%;
+  right: 2.5%;
+  border-radius: 15px;
   border: 2px solid rgba(0, 0, 0, 0.73);
+}
+
+.main-page {
+  height: 87.5%;
 }
 
 /*# sourceMappingURL=index.css.map */

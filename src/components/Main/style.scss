@@ -1,5 +1,15 @@
+.main-block{
+  height: 100%;
+}
+
 .side-bar{
-  width: 60px;
-  margin-left: 2.5%;
+  padding-top: 50px;
+  height: 100%;
+  width: 6%;
+  min-width: 65px;
   color: rgba(207, 223, 229, 0.63);
+  position: relative;
+  box-sizing: border-box;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(14, 17, 21, 0.32);
 }
